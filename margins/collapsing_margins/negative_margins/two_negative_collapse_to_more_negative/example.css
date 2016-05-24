@@ -1,0 +1,12 @@
+.spacer {
+  height: 200px;
+  border: 1px solid gray;
+}
+
+.top {
+  margin-bottom: -25px;
+}
+
+.bottom {
+  margin-top: -50px;
+}

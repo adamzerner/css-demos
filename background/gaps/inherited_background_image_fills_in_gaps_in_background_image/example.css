@@ -1,0 +1,12 @@
+div {
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  background-image: url("../../../full_image.jpg");
+}
+
+.test {
+  background-image: url("../../../sample.png");
+}

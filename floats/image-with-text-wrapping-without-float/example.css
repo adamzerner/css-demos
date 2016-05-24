@@ -1,0 +1,16 @@
+.image {
+  display: inline-block;
+  width: 30%;
+  background-color: red;
+  min-height: 100px;
+}
+
+.right-image {
+  display: inline-block;
+  width: 70%;
+  background-color: blue;
+}
+
+.below-image {
+  background-color: green;
+}

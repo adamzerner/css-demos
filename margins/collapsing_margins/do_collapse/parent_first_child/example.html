@@ -1,0 +1,26 @@
+<!--
+
+If there is no border, padding, inline content, or clearance to separate the margin-top of a block from the margin-top of its first child block then those margins collapse. The collapsed margin ends up outside the parent.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <title>Margin Top Of Parent And First Child Collapse And End Up Outside Parent If Nothing Separates Parent And First Child</title>
+    <link rel="stylesheet" href="example.css">
+  </head>
+  <body>
+    <div class="parent">
+      <div class="first-child">
+        inside first child
+      </div>
+      after first child
+      <div class="second-child">
+        inside second child
+      </div>
+      after second child
+    </div>
+  </body>
+</html>

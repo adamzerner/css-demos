@@ -1,0 +1,10 @@
+.container {
+  width: 200px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+
+.child {
+  width: 300px;
+  border: 1px solid red;
+}

@@ -1,0 +1,13 @@
+div {
+  width: 500px;
+}
+
+.color {
+  height: 200px;
+  background-color: black;
+}
+
+.image {
+  height: 500px;
+  background-image: url("../../sample.png");
+}

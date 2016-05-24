@@ -1,0 +1,14 @@
+.image {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-image: url("../../../../sample.png");
+  background-attachment: scroll;
+}
+
+.long {
+  width: 200px;
+  height: 2000px;
+  border: 1px solid black;
+}

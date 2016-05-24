@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.a {
+  background: red;
+  height: 100px;
+}
+
+.b {
+  background: blue;
+  margin: 50px;
+  height: 100%;
+}

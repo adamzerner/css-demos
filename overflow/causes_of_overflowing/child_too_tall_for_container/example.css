@@ -1,0 +1,9 @@
+.container {
+  height: 200px;
+  border: 1px solid black;
+}
+
+.child {
+  height: 300px;
+  border: 1px solid red;
+}

@@ -1,0 +1,13 @@
+.parent {
+  background: red;
+  margin-top: 20px;
+}
+
+.first-child {
+  background: orange;
+  margin-top: 50px;
+}
+
+.second-child {
+  background: yellow;
+}

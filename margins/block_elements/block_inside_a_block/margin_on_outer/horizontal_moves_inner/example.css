@@ -1,0 +1,8 @@
+.outer {
+  border: 1px solid red;
+  margin-right: 100px;
+}
+
+.inner {
+  border: 1px solid orange;
+}

@@ -1,0 +1,12 @@
+div::before {
+  content: "before";
+}
+
+div::after {
+  content: "after";
+}
+
+div {
+  border: 1px solid black;
+  padding: 25px;
+}
