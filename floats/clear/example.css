@@ -1,0 +1,17 @@
+.a, .b {
+  float: left;
+  width: 200px;
+  height: 100px;
+}
+
+.a {
+  background: red;
+}
+
+.b {
+  background: blue;
+}
+
+.text {
+  clear: left;
+}

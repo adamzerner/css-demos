@@ -1,8 +1,8 @@
-.left {
-  float: left;
-  margin-top: 50px;
+.div-above {
+  margin-bottom: 50px;
 }
 
-.underneath {
+.floated-left {
+  float: left;
   margin-top: 50px;
 }

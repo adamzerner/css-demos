@@ -1,0 +1,40 @@
+Floats
+
+Let's start by looking at the problem floats were originally intended to solve:
+- Task: have an image amongst text. Like in newspapers.
+- In laying out, thing in terms of boxes (inline and block level boxes).
+- You'd need to have a box for the image, another one for the text on the right, and another for the text underneath.
+- Let's say the image is 20% width, the box on the right is 80%, and the one underneath is block level, so 100%.
+- But what happens when you minimize the width of the window?
+- Say we started off at 1000px screen. That'd be 200px for the image. If we reduce the width to 500px, then the image would now be 100px wide. But let's say the height-to-width ratio is 1:1. If so, then by reducing the side, we're also reducing the height. And so we get that space on top, which is a problem.
+- We could make the image take up the full height, but we don't want the proportions to get screwed up. What we really want is for the image to stay at the top left corner, and have the text flow underneath it. Like a newspaper article.
+- Floats solve this problem. You could sorta think of it as if you're just floating the element up here, so it's not going to change when you resize, and everything else is going to flow around it.
+
+How they work:
+- The floated element looks for its container. And positions itself at the top left corner.
+    - This is sorta similar to fixed and absolute positioning, except the container is different in each case.
+    - Except you can't set top/left/bottom/right.
+    - And other stuff flows around it with floats. That's the key thing actually.  With the other stuff, it's like it's not there and other elements don't notice it. So other elements will either be above or below it, depending on the z-index.
+- What about when there are two thing are floated?
+    - I lied. It doesn't actually just go automatically to the top left corner. It goes to the top, and then it tries to go all the way to the left. If there's already something else floated to the left, it won't go all the way, it'll stop when it hits that element. Floats don't "climb on top of each other".
+- What happens when the floats can't fit on one line?
+    - It goes to the next line.
+    - But if there's space to the right of one that is taller, it'll go to the right of it. https://www.w3.org/wiki/File:Fc-ss-03.png
+- Does it matter if it's inline or block?
+    - Floating an element makes it a block.
+- Margins just happen.
+    - They don't change the width.
+    - Negative margins are also a thing, and you could make them overlap.
+- Clearing
+    - Sometimes it’s desirable to make sure that an element doesn’t end up adjacent to a float. For instance, a heading that introduces a new section of an article shouldn’t appear next to an image from the previous section. You’d much rather have the heading appear below the image, even if the image protrudes below the last paragraph. The only way to do that is to use the clear property on the heading.
+    - Only clears "inner".
+
+What are they good for:
+- Having text wrap around images (or whatever)
+- Page layout!
+
+Gotchas:
+- The container collapses (has zero height) if all of its children are floated.
+    - It has to be this way. The alternative is worse, unfortunately. https://css-tricks.com/all-about-floats/
+    - Clearfix is the way around this.
+- You should always set a width on floated elements.

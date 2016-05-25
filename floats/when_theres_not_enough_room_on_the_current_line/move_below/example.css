@@ -1,0 +1,13 @@
+.a {
+  width: 75%;
+  height: 100px;
+  background: red;
+  float: left;
+}
+
+.b {
+  width: 60%;
+  height: 100px;
+  background: blue;
+  float: left;
+}

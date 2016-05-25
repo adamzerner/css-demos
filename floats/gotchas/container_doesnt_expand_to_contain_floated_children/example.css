@@ -1,0 +1,21 @@
+.container {
+  border: 1px solid black;
+}
+
+.a, .b, .c {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.a {
+  background: red;
+}
+
+.b {
+  background: blue;
+}
+
+.c {
+  background: green;
+}

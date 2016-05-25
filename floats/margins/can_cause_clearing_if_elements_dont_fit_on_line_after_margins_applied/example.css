@@ -1,0 +1,14 @@
+.a, .b {
+  width: 30%;
+  height: 100px;
+  float: left;
+}
+
+.a {
+  margin-right: 500px;
+  background: red;
+}
+
+.b {
+  background: blue;
+}

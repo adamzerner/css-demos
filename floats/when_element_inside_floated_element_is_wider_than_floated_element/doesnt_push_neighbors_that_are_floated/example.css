@@ -1,0 +1,19 @@
+.a, .b {
+  width: 40%;
+  height: 100px;
+  float: left;
+}
+
+.a {
+  border: 1px solid red;
+}
+
+.b {
+  border: 1px solid blue;
+}
+
+.inside-a {
+  width: 800px;
+  height: 50px;
+  border: 1px solid green;
+}

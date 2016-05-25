@@ -1,0 +1,15 @@
+.outer {
+  border: 1px solid red;
+}
+
+.inner {
+  width: 500px;
+  height: 300px;
+  margin: 50px;
+  border: 1px solid blue;
+}
+
+.floated-element {
+  float: left;
+  border: 1px solid green;
+}
