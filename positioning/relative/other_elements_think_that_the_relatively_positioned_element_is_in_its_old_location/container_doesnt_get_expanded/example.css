@@ -1,0 +1,12 @@
+
+
+.container {
+  border: 1px solid black;
+}
+
+.inner {
+  border: 1px solid red;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}

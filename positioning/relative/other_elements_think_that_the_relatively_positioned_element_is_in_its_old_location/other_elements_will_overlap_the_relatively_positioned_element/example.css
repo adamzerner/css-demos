@@ -1,0 +1,9 @@
+.top {
+  border: 1px solid black;
+  position: relative;
+  top: 10px;
+}
+
+.bottom {
+  border: 1px solid red;
+}

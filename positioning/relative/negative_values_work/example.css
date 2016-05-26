@@ -1,0 +1,11 @@
+.container {
+  border: 1px solid black;
+}
+
+.inner {
+  color: red;
+  border: 1px solid red;
+  position: relative;
+  top: -5px;
+  left: -10px;
+}
