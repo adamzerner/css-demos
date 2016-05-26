@@ -1,0 +1,35 @@
+.baseline {
+  vertical-align: baseline;
+}
+
+.sup {
+  vertical-align: super;
+}
+
+.sub {
+  vertical-align: sub;
+}
+
+.percentage {
+  vertical-align: -50%;
+}
+
+.px {
+  vertical-align: 10px;
+}
+
+.text-top {
+  vertical-align: text-top;
+}
+
+.text-bottom {
+  vertical-align: text-bottom;
+}
+
+.top {
+  vertical-align: top;
+}
+
+.bottom {
+  vertical-align: bottom;
+}
