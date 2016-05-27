@@ -1,0 +1,18 @@
+.a, .b {
+  border: 1px solid black;
+}
+
+.a {
+  height: 200px;
+}
+
+.b {
+  margin: 10px;
+  height: 400px;
+}
+
+.relative {
+  border: 1px solid red;
+  position: relative;
+  top: 50%;
+}
