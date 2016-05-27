@@ -1,0 +1,14 @@
+.a, .b {
+  border: 1px solid black;
+}
+
+.b {
+  margin: 25px;
+  height: 50px;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

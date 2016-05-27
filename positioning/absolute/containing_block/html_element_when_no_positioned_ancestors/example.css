@@ -1,0 +1,10 @@
+div {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.absolute {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}

@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  border: 1px solid black;
+  height: 200px;
+}
+
+.absolute {
+  border: 1px solid red;
+  position: absolute;
+  left: 50px;
+  right: 10px;
+  top: 25px;
+  bottom: 5px;
+}
