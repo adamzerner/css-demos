@@ -1,0 +1,10 @@
+.fixed {
+  position: fixed;
+  left: 10%;
+  top: 20%;
+}
+
+.tall {
+  border: 1px solid black;
+  height: 2000px;
+}
