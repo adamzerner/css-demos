@@ -4,9 +4,12 @@
   <a ng-href="{{ attrs.codePen }}">CodePen</a>)
 </li>
 
-<li ng-if="!attrs.title">
+<li ng-if="!attrs.title" class="relative">
+  <strong ng-click="toggle()" class="collapse-icon">
+    {{ collapsed ? '+' : '&minus;' }}
+  </strong>
   <span ng-bind-html="safeKey"></span>
-  <ol>
+  <ol ng-hide="collapsed">
     <demo
       ng-repeat="(key, a) in attrs"
       attrs="a"

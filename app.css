@@ -1,0 +1,10 @@
+.collapse-icon {
+  cursor: pointer;
+  font-family: monospace;
+  position: absolute;
+  left: -30px;
+}
+
+.relative {
+  position: relative;
+}
