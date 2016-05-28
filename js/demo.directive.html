@@ -1,0 +1,16 @@
+<li ng-if="attrs.title">
+  <span ng-bind-html="safeTitle"></span>
+  (<a ng-href="demos/{{ attrs.htmlFile }}">HTML File</a>,
+  <a ng-href="{{ attrs.codePen }}">CodePen</a>)
+</li>
+
+<li ng-if="!attrs.title">
+  <span ng-bind-html="safeKey"></span>
+  <ol>
+    <demo
+      ng-repeat="(key, a) in attrs"
+      attrs="a"
+      key="key"
+    ></demo>
+  </ol>
+</li>

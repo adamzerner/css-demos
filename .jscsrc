@@ -1,0 +1,5 @@
+{
+    "preset": "airbnb",
+    "safeContextKeyword": ["vm", "self", "_this"],
+    "maximumLineLength": 500,
+}
