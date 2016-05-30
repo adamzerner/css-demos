@@ -9,13 +9,20 @@
   position: relative;
 }
 
-.anchor {
+.anchor, .anchor-with-no-collapse {
   position: absolute;
   font-family: monospace;
-  left: -45px;
   color: white
 }
 
-.anchor:hover {
+.anchor:hover, .anchor-with-no-collapse:hover {
   color: black;
+}
+
+.anchor {
+  left: -45px;
+}
+
+.anchor-with-no-collapse {
+  left: -30px;
 }
