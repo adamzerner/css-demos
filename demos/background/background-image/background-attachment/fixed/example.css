@@ -3,7 +3,7 @@
   height: 500px;
   border: 1px solid black;
   background-repeat: no-repeat;
-  background-image: url("../../../../sample.png");
+  background-image: url("../../../../../sample.png");
   background-attachment: fixed;
 }
 

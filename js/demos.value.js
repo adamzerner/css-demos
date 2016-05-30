@@ -485,42 +485,49 @@ var demos = {
         title: 'Line Can\'t Be Broken',
         htmlFile: 'overflow/causes_of_overflowing/line_cant_be_broken/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/jrNoVG?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=W2osoZWuN3E',
       },
 
       1: {
         title: 'Child Too Wide For Container',
         htmlFile: 'overflow/causes_of_overflowing/child_too_wide_for_container/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/wWwbog?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=RNBNJhVgi3A',
       },
 
       2: {
         title: 'Child Too Tall For Container',
         htmlFile: 'overflow/causes_of_overflowing/child_too_tall_for_container/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/GqKaNo?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=5vc12BL4Qwc',
       },
 
       3: {
         title: 'Negative Margins On Child',
         htmlFile: 'overflow/causes_of_overflowing/negative_margins_on_child/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/ZOzNBo?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=WXfsgB-PWPY',
       },
 
       4: {
         title: 'Absolute Positioning On Child',
         htmlFile: 'overflow/causes_of_overflowing/absolute_positioning_on_child/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/RRbmoP?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=Q5HkbnaQD0g',
       },
 
       5: {
         title: 'Relative Positioning On Child',
         htmlFile: 'overflow/causes_of_overflowing/relative_positioning_on_child/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/rLBgWr?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=eL8w_2m6kYQ',
       },
 
       6: {
         title: '<code>text-indent</code>',
         htmlFile: 'overflow/causes_of_overflowing/text_indent/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/zBOQom?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=VWfTakNj8zI',
       },
     },
 
@@ -529,18 +536,21 @@ var demos = {
         title: '<code>visible</code>',
         htmlFile: 'overflow/properties/visible/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/RRbmKP?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=o_ddXJdkvqU',
       },
 
       1: {
         title: '<code>hidden</code>',
         htmlFile: 'overflow/properties/hidden/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/oLvRYr?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=OeXDu9viaTM',
       },
 
       2: {
         title: '<code>scroll</code>',
         htmlFile: 'overflow/properties/scroll/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/YWKbNz?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=vfzjfn2G0Vg',
       },
     },
 
@@ -548,6 +558,7 @@ var demos = {
       title: 'Need to set on container, not child',
       htmlFile: 'overflow/need_to_set_on_container_not_child/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/qNWGqw?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=aNliFXFn4qw',
     },
   },
 
@@ -556,6 +567,7 @@ var demos = {
       title: 'Hidden takes up space',
       htmlFile: 'visibility/hidden_takes_up_space/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/RRbmqG?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=nkt9lOQih8o',
     },
   },
 
@@ -565,18 +577,21 @@ var demos = {
         title: 'doesn\'t work with a normal selector',
         htmlFile: 'generated_content/content/doesnt_work_with_normal_selector/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/QELRyv?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=VL13KdK69Pg',
       },
 
       1: {
         title: 'works on <code>::before</code>',
         htmlFile: 'generated_content/content/works_on_before_pseudo_element/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/XKrwXB?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=HZOkm3DBd9M',
       },
 
       2: {
         title: 'works on <code>::after</code>',
         htmlFile: 'generated_content/content/works_on_after_pseudo_element/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/MegdKQ?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=EXx7JRNVqz0',
       },
     },
 
@@ -585,12 +600,14 @@ var demos = {
         title: 'Are rendered inside of element',
         htmlFile: 'generated_content/before_and_after_pseudo_elements/are_rendered_inside_element/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/VjZOvJ?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=t-PpJ-QtTg8',
       },
 
       1: {
         title: 'Can be styled',
         htmlFile: 'generated_content/before_and_after_pseudo_elements/can_be_styled/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/GqKaoJ?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=_VLatpY0pTc',
       },
     },
   },
@@ -601,6 +618,7 @@ var demos = {
         title: 'Based on the <code>font-size</code> of the root element',
         htmlFile: 'rem_em/rem/based_on_root_element/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/dXbEQY?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=9QvBWLmigQM',
       },
     },
 
@@ -610,12 +628,14 @@ var demos = {
           title: 'When the current element\'s <code>font-size</code> is inherited',
           htmlFile: 'rem_em/em/based_on_font_size_of_the_current_element/when_inherited/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/wWwbYr?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=yiCjtFY8_us',
         },
 
         1: {
           title: 'When the current element\'s <code>font-size</code> is set explicitly',
           htmlFile: 'rem_em/em/based_on_font_size_of_the_current_element/when_set_explicitly/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/zBOQmX?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=BNu9-Qin9uA',
         },
       },
     },
@@ -624,6 +644,7 @@ var demos = {
       title: 'Can apply to properties other than <code>font-size</code>',
       htmlFile: 'rem_em/can_apply_to_properties_other_than_font_size/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/mEbYzO?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=kwFhuu2NKAY',
     },
   },
 
@@ -633,30 +654,35 @@ var demos = {
         title: 'In content area',
         htmlFile: 'background/visible/in_content_area/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/bebyNw?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=lvjA40UX9r4',
       },
 
       1: {
         title: 'In padding area',
         htmlFile: 'background/visible/in_padding_area/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/QELRwp?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=GOAP1X_Mu30',
       },
 
       2: {
         title: 'Not in border area',
         htmlFile: 'background/visible/not_in_border_area/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/yJBWyz?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=9e3wxalpiHY',
       },
 
       3: {
         title: 'Not in margin area',
         htmlFile: 'background/visible/not_in_margin_area/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/ezOamM?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=FKYu89MK8hQ',
       },
 
       4: {
         title: 'Not in position area',
         htmlFile: 'background/visible/not_in_position_area/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/zBOQxL?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=RStlPxsLIUQ',
       },
     },
 
@@ -665,12 +691,14 @@ var demos = {
         title: '<code>background-color</code> fills in the gaps in the <code>background-image</code>',
         htmlFile: 'background/gaps/background_color_fills_in_gaps_in_background_image/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/gMYyOQ?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=qHr6-6bnmQU',
       },
 
       1: {
         title: 'Inherited <code>background-image</code> fills in gaps in current <code>background-image</code>',
         htmlFile: 'background/gaps/inherited_background_image_fills_in_gaps_in_background_image/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/VjZOwO?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=V7bHVXFpGCE',
       },
     },
 
@@ -711,24 +739,28 @@ var demos = {
           title: 'Defaults to <code>repeat</code>',
           htmlFile: 'background/background-image/background-repeat/defaults_to_repeat/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/OXLqYr?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=BJflkLm3eXo',
         },
 
         1: {
           title: '<code>no-repeat</code>',
           htmlFile: 'background/background-image/background-repeat/no-repeat/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/KMPEjK?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=W1I1SrZVw_U',
         },
 
         2: {
           title: '<code>repeat-x</code>',
           htmlFile: 'background/background-image/background-repeat/repeat-x/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/qNWvzX',
+          youtube: 'https://www.youtube.com/watch?v=y7BSFEJZHJU',
         },
 
         3: {
           title: '<code>repeat-y</code>',
           htmlFile: 'background/background-image/background-repeat/repeat-y/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/mEboZj?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=xxxcBDV_TkY',
         },
       },
 
@@ -737,18 +769,21 @@ var demos = {
           title: 'Length',
           htmlFile: 'background/background-image/background-position/length/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/JKPzqJ?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=m5nKzS_c0ac',
         },
 
         1: {
           title: 'Percentage',
           htmlFile: 'background/background-image/background-position/percentage/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/VjZROQ?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=PIo77AGCrps',
         },
 
         2: {
           title: 'Top-Right-Bottom-Left-Center',
           htmlFile: 'background/background-image/background-position/top_right_bottom_left_center/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/mEboYj?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=ux5ENvVycTg',
         },
       },
 
@@ -797,18 +832,21 @@ var demos = {
       title: 'Defaults to <code>transparent</code>',
       htmlFile: 'background/defaults_to_transparent/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/qNWwBP?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=c0M289cMAyY',
     },
 
     1: {
       title: 'Overrides parent when set',
       htmlFile: 'background/overrides_parent_when_set/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/mEbYyd?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=TIv-Z8043Xw',
     },
 
     2: {
       title: 'Can be a color or an image',
       htmlFile: 'background/can_be_a_color_or_image/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/OXLqKd?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=zCp_RdfgIfc',
     },
   },
 
@@ -817,30 +855,35 @@ var demos = {
       title: '<code>normal</code>',
       htmlFile: 'white-space/normal/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/OXLYag?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=1wjKqKGmlzs',
     },
 
     1: {
       title: '<code>pre</code>',
       htmlFile: 'white-space/pre/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/yJBWQx?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=39roucs7vgQ',
     },
 
     2: {
       title: '<code>nowrap</code>',
       htmlFile: 'white-space/nowrap/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/KMPLre?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=hlEFdR50ldQ',
     },
 
     3: {
       title: '<code>pre-wrap</code>',
       htmlFile: 'white-space/pre-wrap/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/LZPoME?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=awG8fH-6uG4',
     },
 
     4: {
       title: '<code>pre-line</code>',
       htmlFile: 'white-space/pre-line/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/zBOQMX?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=0B_NoDl-1D4',
     },
   },
 };

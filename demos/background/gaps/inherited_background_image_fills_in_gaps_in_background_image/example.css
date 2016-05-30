@@ -4,9 +4,9 @@ div {
 }
 
 .container {
-  background-image: url("../../../full_image.jpg");
+  background-image: url("../../../../full_image.jpg");
 }
 
 .test {
-  background-image: url("../../../sample.png");
+  background-image: url("../../../../sample.png");
 }

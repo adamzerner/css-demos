@@ -1,15 +1,37 @@
-<li ng-if="attrs.title">
+<li ng-if="attrs.title" class="relative" id="{{ anchor }}">
+  <a
+    ng-href="#{{ anchor }}"
+    ng-class="{
+      'anchor': attrs.codePen || attrs.youtube,
+      'anchor-with-no-collapse': !attrs.codePen && !attrs.youtube,
+    }"
+  >#</a>
+  <strong
+    ng-if="attrs.codePen || attrs.youtube"
+    ng-click="toggleYouTubeAndCodePenCollapsed()"
+    class="collapse-icon"
+  >
+    {{ youTubeAndCodePenCollapsed ? '+' : '&minus;' }}
+  </strong>
   <span ng-bind-html="safeTitle"></span>
-  (<a ng-href="demos/{{ attrs.htmlFile }}">HTML File</a>,
-  <a ng-href="{{ attrs.codePen }}">CodePen</a>)
+  (<a ng-href="demos/{{ attrs.htmlFile }}">HTML File</a><!--
+ --><span ng-if="attrs.codePen">, <a ng-href="{{ attrs.codePen }}">CodePen</a></span><!--
+ --><span ng-if="attrs.youtube">, <a ng-href="{{ attrs.youtube }}">YouTube Explanation</a></span>)
+
+ <div ng-if="!youTubeAndCodePenCollapsed">
+   <iframe ng-if="attrs.youtube" width="420" height="315" ng-src="{{ safeEmbedSrc }}" frameborder="0" allowfullscreen></iframe>
+
+   <iframe ng-if="attrs.codePen" width="700" height='315' scrolling='no' ng-src='{{ safeCodePenEmbedSrc }}' frameborder='no' allowtransparency='true' allowfullscreen='true'>See the Pen <a ng-href='http://codepen.io/adamzerner/pen/{{ codepenId }}/'>{{ codepenId }}</a> by Adam Zerner (<a href='http://codepen.io/adamzerner'>@adamzerner</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
+ </div>
+
 </li>
 
 <li ng-if="!attrs.title" class="relative">
-  <strong ng-click="toggle()" class="collapse-icon">
-    {{ collapsed ? '+' : '&minus;' }}
+  <strong ng-click="toggleChildrenCollapsed()" class="collapse-icon">
+    {{ childrenCollapsed ? '+' : '&minus;' }}
   </strong>
   <span ng-bind-html="safeKey"></span>
-  <ol ng-hide="collapsed">
+  <ol ng-hide="childrenCollapsed">
     <demo
       ng-repeat="(key, a) in attrs"
       attrs="a"

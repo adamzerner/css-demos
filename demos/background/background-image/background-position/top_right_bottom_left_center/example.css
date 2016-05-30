@@ -2,7 +2,7 @@ div {
   width: 500px;
   height: 500px;
   border: 1px solid black;
-  background-image: url("../../../../sample.png");
+  background-image: url("../../../../../sample.png");
   background-repeat: no-repeat;
   background-position: right center;
 }

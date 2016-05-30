@@ -1,7 +1,7 @@
 div {
   width: 1000px;
   height: 500px;
-  background-image: url("../../../../sample.png");
+  background-image: url("../../../../../sample.png");
   background-repeat: no-repeat;
   border: 1px solid black;
   background-size: 30% 20%;

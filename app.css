@@ -8,3 +8,14 @@
 .relative {
   position: relative;
 }
+
+.anchor {
+  position: absolute;
+  font-family: monospace;
+  left: -45px;
+  color: white
+}
+
+.anchor:hover {
+  color: black;
+}
