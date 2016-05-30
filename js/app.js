@@ -36,7 +36,6 @@ function demo() {
                           .replace(/%20/g, '-')
                           .replace(/%3ccode%3e/g, '')
                           .replace(/%3c%2fcode%3e/g, '');
-        console.log($scope.anchor);
       }
 
       if ($scope.attrs && $scope.attrs.youtube) {
