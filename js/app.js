@@ -1,8 +1,17 @@
 angular
   .module('cssDemos', [])
+  .run(run)
   .controller('IndexCtrl', IndexCtrl)
   .directive('demo', demo)
 ;
+
+function run($anchorScroll, $timeout, $location) {
+  $timeout(function () {
+    if ($location.hash()) {
+      $anchorScroll();
+    }
+  });
+}
 
 function IndexCtrl(demos) {
   var vm = this;
