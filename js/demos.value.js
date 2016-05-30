@@ -4,18 +4,21 @@ var demos = {
       title: 'Inherited property',
       htmlFile: 'inheritance/inherited_property/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/dXbEGB?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=UaLsaBtRAoY',
     },
 
     1: {
       title: 'Non-inherited property',
       htmlFile: 'inheritance/non_inherited_property/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/YWKbqK?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=MlS1DSR5kBw',
     },
 
     2: {
       title: 'Force a non-inherited property to inherity with <code>inherit</code> keyword',
       htmlFile: 'inheritance/force_a_non_inherited_property_with_inherit_keyword/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/qNWGbv?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=wt3tRpLjPx8',
     },
   },
 
@@ -25,12 +28,14 @@ var demos = {
         title: 'Have vertical margins',
         htmlFile: 'margins/block_elements/have_vertical_margins/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/EyYzKd?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=BnIsTfTJrqs',
       },
 
       1: {
         title: 'Have horizontal margins',
         htmlFile: 'margins/block_elements/have_horizontal_margins/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/QELRNg?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=uNKxRuFeCRw',
       },
 
       'Block Inside A Block': {
@@ -39,12 +44,14 @@ var demos = {
             title: 'Vertical Moves Inner',
             htmlFile: 'margins/block_elements/block_inside_a_block/margin_on_outer/vertical_moves_inner/example.html',
             codePen: 'http://codepen.io/adamzerner/pen/wWwbGo?editors=1100',
+            youtube: 'https://www.youtube.com/watch?v=pgohDmbbt5M',
           },
 
           1: {
             title: 'Horizontal Moves Inner',
             htmlFile: 'margins/block_elements/block_inside_a_block/margin_on_outer/horizontal_moves_inner/example.html',
             codePen: 'http://codepen.io/adamzerner/pen/OXLYNX?editors=1100',
+            youtube: 'https://www.youtube.com/watch?v=BkcX_-2V6Nw',
           },
         },
       },
@@ -55,12 +62,14 @@ var demos = {
         title: 'Can\'t have vertical margins',
         htmlFile: 'margins/inline_elements/cant_have_vertical_margins/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/VjZOmZ?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=IAzY74bBX78',
       },
 
       1: {
         title: 'Can have horizontal margins',
         htmlFile: 'margins/inline_elements/can_have_horizontal_margins/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/LZPoRo?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=PMiVF3N286Y',
       },
     },
 
@@ -69,12 +78,14 @@ var demos = {
         title: 'Can have vertical margins',
         htmlFile: 'margins/inline_block_elements/can_have_vertical_margins/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/JKPqRz?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=RW_dX4ac9gI',
       },
 
       1: {
         title: 'Can have horizontal margins',
         htmlFile: 'margins/inline_block_elements/can_have_horizontal_margins/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/zBOQKm?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=-qLCXINS-Hs',
       },
     },
 
@@ -84,18 +95,21 @@ var demos = {
           title: 'Vertical margins',
           htmlFile: 'margins/collapsing_margins/do_collapse/vertical_margins/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/WxeBxj?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=6hcDHSsyGfU',
         },
 
         1: {
           title: '<code>margin-top</code> on first child + nothing between parent and first child',
           htmlFile: 'margins/collapsing_margins/do_collapse/parent_first_child/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/gMYJMP?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=wnERd3AFkKQ',
         },
 
         2: {
           title: '<code>margin-bottom</code> on last child + nothing between last child and parent',
           htmlFile: 'margins/collapsing_margins/do_collapse/parent_last_child/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/bebyeg?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=7_Hr04D0oDs',
         },
 
         'Cleared elements': {
@@ -103,12 +117,14 @@ var demos = {
             title: 'Collapses when there\'s nothing to clear',
             htmlFile: 'margins/collapsing_margins/do_collapse/cleared_elements/collapses_when_theres_nothing_to_clear/example.html',
             codePen: 'http://codepen.io/adamzerner/pen/JKPqXx?editors=1100',
+            youtube: 'https://www.youtube.com/watch?v=mmJUrnQ8NCQ',
           },
 
           1: {
             title: 'Collapses when there\'s something to clear',
             htmlFile: 'margins/collapsing_margins/do_collapse/cleared_elements/collapses_when_theres_something_to_clear/example.html',
             codePen: 'http://codepen.io/adamzerner/pen/VjZOao?editors=1100',
+            youtube: 'https://www.youtube.com/watch?v=syUAikY76d4',
           },
         },
       },
@@ -118,12 +134,14 @@ var demos = {
           title: 'Absolutely positioned elements',
           htmlFile: 'margins/collapsing_margins/dont_collapse/absolutely_positioned_elements/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/KMPLMX?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=ZRr3PFP6x_8',
         },
 
         1: {
           title: 'Block next to inline',
           htmlFile: 'margins/collapsing_margins/dont_collapse/block_next_to_inline/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/MegdeQ?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=l8GlCHiUC_U',
         },
 
         2: {
@@ -142,17 +160,20 @@ var demos = {
           title: 'Floated elements',
           htmlFile: 'margins/collapsing_margins/dont_collapse/floated_elements/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/gMYJwP?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=XF7i3hOGyow',
         },
 
         5: {
           title: 'Horizontal margins',
           htmlFile: 'margins/collapsing_margins/dont_collapse/horizontal_margins/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/PzYvGN?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=CnoDI0Zr6VM',
         },
 
         6: {
           title: 'Root element',
           htmlFile: 'margins/collapsing_margins/dont_collapse/root_element/example.html',
+          youtube: 'https://www.youtube.com/watch?v=wVKO2Q5cXOg',
         },
       },
 
@@ -161,12 +182,14 @@ var demos = {
           title: 'One negative margin doesn\'t collapse',
           htmlFile: 'margins/collapsing_margins/negative_margins/one_negative_doesnt_collapse/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/bebywg?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=2B3xznwSG30',
         },
 
         1: {
           title: 'Two negative collapse to more negative',
           htmlFile: 'margins/collapsing_margins/negative_margins/two_negative_collapse_to_more_negative/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/jrNoML?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=4EE0blAHgUg',
         },
       },
     },
@@ -179,24 +202,28 @@ var demos = {
           title: 'Can set <code>width</code>',
           htmlFile: 'positioning/static/block/can_set_width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/aZorJX?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=udoR2BOFHmQ',
         },
 
         1: {
           title: 'Can set <code>height</code>',
           htmlFile: 'positioning/static/block/can_set_height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/XKrwMx?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=lDz9mqd6WXI',
         },
 
         2: {
           title: 'Takes up its own line even when it\'d fit on the previous line',
           htmlFile: 'positioning/static/block/takes_up_its_own_line_even_when_itd_fit_on_the_previous_line/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/VjZObw?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=jU603Y6ShkI',
         },
 
         3: {
           title: 'When there\'s a mix of block and inline children, an anonymous block is generated to contain the inline children',
           htmlFile: 'positioning/static/block/when_mix_of_block_and_inline_children_generate_anonymous_block_to_contain_inline_children/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/GqKamZ?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=W5IO2TTkAoE',
         },
       },
 
@@ -205,12 +232,14 @@ var demos = {
           title: 'Can\'t set width',
           htmlFile: 'positioning/static/inline/cant_set_width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/WxeBjE?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=nvA8ym41q-s',
         },
 
         1: {
           title: 'Can\'t set height',
           htmlFile: 'positioning/static/inline/cant_set_height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/bebyWW?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=xrVqmbomdjI',
         },
 
         'Line boxes are generated': {
@@ -218,18 +247,21 @@ var demos = {
             title: '<code>line-height</code>',
             htmlFile: 'positioning/static/inline/line_boxes_are_generated/line-height/example.html',
             codePen: 'http://codepen.io/adamzerner/pen/ZOzNKR?editors=1100',
+            youtube: 'https://www.youtube.com/watch?v=vkCOWP_WyTY',
           },
 
           1: {
             title: '<code>vertical-align</code>',
             htmlFile: 'positioning/static/inline/line_boxes_are_generated/vertical-align/example.html',
             codePen: 'http://codepen.io/adamzerner/pen/xOKNdB?editors=1100',
+            youtube: 'https://www.youtube.com/watch?v=dHhc6djwfh4',
           },
 
           2: {
             title: '<code>text-align</code>',
             htmlFile: 'positioning/static/inline/line_boxes_are_generated/text-align/example.html',
             codePen: 'http://codepen.io/adamzerner/pen/XKrwRx?editors=1100',
+            youtube: 'https://www.youtube.com/watch?v=nhkwxULiObI',
           },
         },
 
@@ -239,18 +271,21 @@ var demos = {
               title: 'Horizontal padding',
               htmlFile: 'positioning/static/inline/when_split_over_multiple_lines/applies_to_first_and_last_generated_boxes_only/horizontal_padding/example.html',
               codePen: 'http://codepen.io/adamzerner/pen/QELRVQ?editors=1100',
+              youtube: 'https://www.youtube.com/watch?v=5vk5ZDBSTak',
             },
 
             1: {
               title: 'Horizontal margins',
               htmlFile: 'positioning/static/inline/when_split_over_multiple_lines/applies_to_first_and_last_generated_boxes_only/horizontal_margins/example.html',
               codePen: 'http://codepen.io/adamzerner/pen/XKrwPG?editors=1100',
+              youtube: 'https://www.youtube.com/watch?v=0ez_X_Blhvw',
             },
 
             2: {
               title: 'Horizontal borders',
               htmlFile: 'positioning/static/inline/when_split_over_multiple_lines/applies_to_first_and_last_generated_boxes_only/horizontal_borders/example.html',
               codePen: 'http://codepen.io/adamzerner/pen/QELRVQ?editors=1100',
+              youtube: 'https://www.youtube.com/watch?v=lfoifdfuoEE',
             },
           },
 
@@ -259,12 +294,14 @@ var demos = {
               title: 'Vertical padding',
               htmlFile: 'positioning/static/inline/when_split_over_multiple_lines/applies_to_all_generated_boxes/vertical_padding/example.html',
               codePen: 'http://codepen.io/adamzerner/pen/GqKaXN?editors=1100',
+              youtube: 'https://www.youtube.com/watch?v=dO63rHh0AWE',
             },
 
             1: {
               title: 'Vertical borders',
               htmlFile: 'positioning/static/inline/when_split_over_multiple_lines/applies_to_all_generated_boxes/vertical_borders/example.html',
               codePen: 'http://codepen.io/adamzerner/pen/LZPoyK?editors=1100',
+              youtube: 'https://www.youtube.com/watch?v=AQoTKgr8bM0',
             },
           },
         },
@@ -277,12 +314,14 @@ var demos = {
           title: 'Block',
           htmlFile: 'positioning/relative/moves_the_element/block/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/vKBwxE?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=VLW6qdmtb3E',
         },
 
         1: {
           title: 'Inline',
           htmlFile: 'positioning/relative/moves_the_element/inline/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/gMYJmr?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=B0NzriqPyFc',
         },
       },
 
@@ -291,12 +330,14 @@ var demos = {
           title: 'Is relative to the top-left coordinate of where the element otherwise would be',
           htmlFile: 'positioning/relative/top_right_bottom_left/is_relative_to_top_left_coordinate_of_where_the_element_otherwise_would_be/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/bebZYm?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=2dRBHIvkrYk',
         },
 
         1: {
           title: 'Percentages are of the containing block',
           htmlFile: 'positioning/relative/top_right_bottom_left/percentages_are_of_the_containing_block/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/NrKJOJ?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=nV_B_Xag9p4',
         },
       },
 
@@ -304,6 +345,7 @@ var demos = {
         title: 'Negative values work',
         htmlFile: 'positioning/relative/negative_values_work/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/wWwbJg?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=39pejJZLSLA',
       },
 
       'Other elements think that the relatively positioned element is in it\'s old location': {
@@ -311,12 +353,14 @@ var demos = {
           title: 'Other elements will overlap the relatively positioned element',
           htmlFile: 'positioning/relative/other_elements_think_that_the_relatively_positioned_element_is_in_its_old_location/other_elements_will_overlap_the_relatively_positioned_element/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/MegdpV?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=gseBjg6_PDA',
         },
 
         1: {
           title: 'Container doesn\'t get expanded',
           htmlFile: 'positioning/relative/other_elements_think_that_the_relatively_positioned_element_is_in_its_old_location/container_doesnt_get_expanded/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/QELRpM?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=2DjaQhq7NyI',
         },
       },
     },
@@ -327,12 +371,14 @@ var demos = {
           title: 'Not necessarily the parent',
           htmlFile: 'positioning/absolute/containing_block/not_necessarily_the_parent/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/zBOQNm?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=mW9N81UxY1Y',
         },
 
         1: {
           title: 'Closest positioned ancestor',
           htmlFile: 'positioning/absolute/containing_block/closest_positioned_ancestor/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/jrNoyG?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=L6O2KwDj79M',
         },
 
         2: {
@@ -347,12 +393,14 @@ var demos = {
           title: 'Relative to the corresponding edge',
           htmlFile: 'positioning/absolute/top_right_bottom_left/is_relative_to_the_corresponding_edge/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/bebZom?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=xl3x9csiBk8',
         },
 
         1: {
           title: 'Percentages are relative to the containing block',
           htmlFile: 'positioning/absolute/top_right_bottom_left/percentages_are_relative_to_the_containing_block/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/ZOzPxE?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=oLUBfLRd_1c',
         },
       },
     },
@@ -362,6 +410,7 @@ var demos = {
         title: 'Same as <code>absolute</code> except that the containing block is always the viewport',
         htmlFile: 'positioning/fixed/same_as_absolute_except_containing_block_is_always_viewport/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/NrKJJm?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=l1Da4jYVgJ4',
       },
     },
   },
@@ -372,12 +421,14 @@ var demos = {
         title: 'With <code>float</code>',
         htmlFile: 'floats/image_with_text_wrapping/with_float/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/NrKVqd?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=eSQPXBvsVl0',
       },
 
       1: {
         title: 'Without <code>float</code>',
         htmlFile: 'floats/image_with_text_wrapping/without_float/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/EyYzje?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=2HFg0bcK2C4',
       },
     },
 
@@ -385,12 +436,14 @@ var demos = {
       title: 'Are positioned at the top-left of the containing element',
       htmlFile: 'floats/are_positioned_at_the_top_left_of_the_containing_element/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/LZPoEa?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=VqeumU_lkB0',
     },
 
     1: {
       title: 'Stop when they hit another floated element',
       htmlFile: 'floats/are_positioned_at_the_top_left_of_the_containing_element/stop_when_they_hit_another_floated_element/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/qNWGEg?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=9nauCe9ZEgE',
     },
 
     'When there\'s not enough room on the current line': {
@@ -398,11 +451,13 @@ var demos = {
         title: 'Move below',
         htmlFile: 'floats/when_theres_not_enough_room_on_the_current_line/move_below/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/ezOapM?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=QY6X4jBk1Vs',
       },
 
       1: {
         title: 'Only moves as low as it needs to',
         htmlFile: 'floats/when_theres_not_enough_room_on_the_current_line/only_moves_as_low_as_it_needs_to/example.html',
+        youtube: 'https://www.youtube.com/watch?v=RP5-8_qHNpU',
       },
     },
 
@@ -410,6 +465,7 @@ var demos = {
       title: 'Inline elements become blocks when floated',
       htmlFile: 'floats/inline_elements_become_blocks_when_floated/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/EyYzVe?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=SyPFrmM-7a4',
     },
 
     Margin: {
@@ -417,24 +473,28 @@ var demos = {
         title: 'Horizontal works',
         htmlFile: 'floats/margins/horizontal_works/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/RRbmWw?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=N3nyOeU9rjY',
       },
 
       1: {
         title: 'Vertical works',
         htmlFile: 'floats/margins/vertical_works/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/BzBeoz?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=UjCqjDzyk_c',
       },
 
       2: {
         title: 'Negative works',
         htmlFile: 'floats/margins/negative_works/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/PzYvPZ?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=vjrJjPWKY4M',
       },
 
       3: {
         title: 'Can cause clearing if elements don\'t all fit on the line after the margins have been applied',
         htmlFile: 'floats/margins/can_cause_clearing_if_elements_dont_fit_on_line_after_margins_applied/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/VjZOLJ?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=-ZkX2roOc4A',
       },
     },
 
@@ -442,12 +502,14 @@ var demos = {
       title: '<code>clear</code>',
       htmlFile: 'floats/clear/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/YWKbPm?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=m0SGLfVN-tM',
     },
 
     4: {
       title: 'Elements that come before the floated element in the markup appear normally. They don\'t flow around the floated element',
       htmlFile: 'floats/elements_that_come_before_float_in_markup_dont_flow_around_float/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/GqKaJJ?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=ApZOzoRlHv4',
     },
 
     'When an element inside a floated element is wider than the floated element': {
@@ -455,18 +517,21 @@ var demos = {
         title: 'It doesn\'t expand the floated element',
         htmlFile: 'floats/when_element_inside_floated_element_is_wider_than_floated_element/doesnt_expand_floated_element/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/QELRjv?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=IyR8VjQAsSk',
       },
 
       1: {
         title: 'It doesn\'t push neighbors that are floated',
         htmlFile: 'floats/when_element_inside_floated_element_is_wider_than_floated_element/doesnt_push_neighbors_that_are_floated/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/jrNobw?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=KR7FjQer2kY',
       },
 
       2: {
         title: 'It doesn\'t push neighbors that aren\'t floated',
         htmlFile: 'floats/when_element_inside_floated_element_is_wider_than_floated_element/doesnt_push_neighbors_that_arent_floated/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/yJBWYP?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=SFBZdBT9_ZY',
       },
     },
 
@@ -475,6 +540,7 @@ var demos = {
         title: 'Container doesn\'t expand to contain floated children (clearfix)',
         htmlFile: 'floats/gotchas/container_doesnt_expand_to_contain_floated_children/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/PzYvqZ?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=YtvimSSX0k8',
       },
     },
   },
@@ -792,24 +858,28 @@ var demos = {
           title: 'Length',
           htmlFile: 'background/background-image/background-size/length/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/xOKBvr?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=9Q5wdhDUMzA',
         },
 
         1: {
           title: 'Percentage',
           htmlFile: 'background/background-image/background-size/percentage/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/YWKgmL?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=gNmYOsSv5eo',
         },
 
         2: {
           title: '<code>cover</code>',
           htmlFile: 'background/background-image/background-size/cover/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/KMPEOK?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=xnEg9ZGLkiI',
         },
 
         3: {
           title: '<code>contain</code>',
           htmlFile: 'background/background-image/background-size/contain/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/BzBbgM?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=Opbw7sCVeVo',
         },
       },
 
@@ -818,12 +888,14 @@ var demos = {
           title: '<code>scroll</code>',
           htmlFile: 'background/background-image/background-attachment/scroll/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/EyYMzZ?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=zBfH8o3dqfM',
         },
 
         1: {
           title: '<code>fixed</code>',
           htmlFile: 'background/background-image/background-attachment/fixed/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/Megxda?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=zBfH8o3dqfM',
         },
       },
     },
