@@ -5,10 +5,10 @@ angular
   .directive('demo', demo)
 ;
 
-function run($location, $anchorScroll, $timeout) {
+function run($anchorScroll, $timeout, $location) {
   $timeout(function () {
     if ($location.hash()) {
-      $anchorScroll();
+      $anchorScroll($location.hash());
     }
   }, 0);
 }
