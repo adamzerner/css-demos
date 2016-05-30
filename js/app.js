@@ -1,8 +1,17 @@
 angular
   .module('cssDemos', [])
+  .run(run)
   .controller('IndexCtrl', IndexCtrl)
   .directive('demo', demo)
 ;
+
+function run($location, $anchorScroll, $timeout) {
+  $timeout(function () {
+    if ($location.hash()) {
+      $anchorScroll();
+    }
+  }, 0);
+}
 
 function IndexCtrl(demos) {
   var vm = this;
@@ -31,11 +40,10 @@ function demo() {
 
       if ($scope.attrs && $scope.attrs.title) {
         $scope.safeTitle = $sce.trustAsHtml($scope.attrs.title);
-        $scope.anchor = encodeURIComponent($scope.attrs.title)
-                          .toLowerCase()
-                          .replace(/%20/g, '-')
-                          .replace(/%3ccode%3e/g, '')
-                          .replace(/%3c%2fcode%3e/g, '');
+      }
+
+      if ($scope.attrs && $scope.attrs.htmlFile) {
+        $scope.anchor = hash($scope.attrs.htmlFile);
       }
 
       if ($scope.attrs && $scope.attrs.youtube) {
@@ -59,6 +67,20 @@ function demo() {
         $scope.youTubeAndCodePenCollapsed = !$scope.youTubeAndCodePenCollapsed;
       };
 
+      function hash(str) {
+        var hash = 0;
+        var i;
+        var chr;
+        var len;
+        if (str.length === 0) return hash;
+        for (i = 0, len = str.length; i < len; i++) {
+          chr   = str.charCodeAt(i);
+          hash  = ((hash << 5) - hash) + chr;
+          hash |= 0; // Convert to 32bit integer
+        }
+
+        return hash;
+      }
     },
 
     templateUrl: 'js/demo.directive.html',
