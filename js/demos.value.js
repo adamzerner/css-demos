@@ -958,6 +958,76 @@ var demos = {
       youtube: 'https://www.youtube.com/watch?v=0B_NoDl-1D4',
     },
   },
+
+  '<code>z-index</code>': {
+    'Stacking with no <code>z-index</code>': {
+      0: {
+        title: 'Intro',
+        htmlFile: 'z-index/stacking_with_no_z-index/intro/example.html',
+        codePen: 'http://codepen.io/adamzerner/pen/LZYoJK?editors=1100',
+      },
+
+      1: {
+        title: 'With floats',
+        htmlFile: 'z-index/stacking_with_no_z-index/with_floats/example.html',
+        codePen: 'http://codepen.io/adamzerner/pen/qNBGJG?editors=1100',
+      },
+    },
+
+    0: {
+      title: 'Positive values for <code>z-index</code>',
+      htmlFile: 'z-index/positive_values_for_z-index/example.html',
+      codePen: 'http://codepen.io/adamzerner/pen/xOxNNN?editors=1100',
+    },
+
+    1: {
+      title: 'Negative values for <code>z-index</code>',
+      htmlFile: 'z-index/negative_values_for_z-index/example.html',
+      codePen: 'http://codepen.io/adamzerner/pen/gMONam?editors=1100',
+    },
+
+    2: {
+      title: '<code>z-index</code> only matters when an element is positioned',
+      htmlFile: 'z-index/z-index_only_matters_when_an_element_is_positioned/example.html',
+      codePen: 'http://codepen.io/adamzerner/pen/zBYVNg?editors=1100',
+    },
+
+    Cascades: {
+      0: {
+        title: 'Same value for <code>z-index</code>',
+        htmlFile: 'z-index/cascades/same_value_for_z-index/example.html',
+        codePen: 'http://codepen.io/adamzerner/pen/PzorbK?editors=1100',
+      },
+
+      1: {
+        title: 'No value for <code>z-index</code>',
+        htmlFile: 'z-index/cascades/no_value_for_z-index/example.html',
+        codePen: 'http://codepen.io/adamzerner/pen/qNBzRd?editors=1100',
+      },
+    },
+
+    'Stacking contexts': {
+      0: {
+        title: 'Children always appear in front of element that created the stacking context',
+        htmlFile: 'z-index/stacking_contexts/children_always_appear_in_front/example.html',
+        codePen: 'http://codepen.io/adamzerner/pen/PzwYoY?editors=1100',
+      },
+
+      'Are positioned along the z-index as discrete units': {
+        0: {
+          title: 'Siblilng stacking contexts',
+          htmlFile: 'z-index/stacking_contexts/are_positioned_along_the_z-index_as_discrete_units/sibling_stacking_contexts/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/VjYZvg?editors=1100',
+        },
+
+        1: {
+          title: 'Nested stacking contexts',
+          htmlFile: 'z-index/stacking_contexts/are_positioned_along_the_z-index_as_discrete_units/nested_stacking_contexts/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/ezmOvV?editors=1100',
+        },
+      },
+    },
+  },
 };
 
 angular

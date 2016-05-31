@@ -1,0 +1,27 @@
+html {
+  font-size: 52px;
+}
+
+.outer, .inner, .one, .two {
+  position: relative;
+  padding: 20px;
+}
+
+.inner {
+  background: orange;
+}
+
+.outer {
+  background: green;
+}
+
+.one {
+  background: red;
+  bottom: 120px;
+  left: 150px;
+}
+
+.two {
+  background: yellow;
+  top: 40px;
+}

@@ -1,0 +1,52 @@
+html {
+  border: 5px dotted gold;
+  background: yellow;
+  font-weight: bold;
+}
+
+.block, .inline {
+  background: orange;
+}
+
+.relative, .absolute, .fixed {
+  background: red;
+}
+
+.fixed {
+  position: fixed;
+  left: 35px;
+}
+
+.fixed-a {
+  top: 13px;
+}
+
+.fixed-b {
+  top: 67px;
+}
+
+.absolute {
+  position: absolute;
+  left: 35px;
+}
+
+.absolute-a {
+  top: 30px;
+}
+
+.absolute-b {
+  top: 85px;
+}
+
+.relative {
+  position: relative;
+  left: 22px;
+}
+
+.relative-a {
+  bottom: 18px;
+}
+
+.relative-b {
+  bottom: 91px
+}

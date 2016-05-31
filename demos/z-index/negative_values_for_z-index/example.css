@@ -1,0 +1,42 @@
+html {
+  border: 5px dotted darkblue;
+  background: blue;
+}
+
+.inline, .block {
+  background: yellow;
+}
+
+.block {
+  width: 36px;
+}
+
+.float {
+  float: left;
+  background: orange;
+}
+
+.negative {
+  position: absolute;
+  background: green;
+  left: 35px;
+  z-index: -1;
+}
+
+.b {
+  top: 31px
+}
+
+.c {
+  top: 49px;
+}
+
+.d {
+  top: 67px;
+}
+
+.positive {
+  position: relative;
+  background: red;
+  z-index: 1;
+}

@@ -1,0 +1,21 @@
+.stacking-context-1 {
+  position: relative;
+  z-index: 1;
+  background: yellow;
+  padding: 10px;
+}
+
+.stacking-context-2 {
+  position: relative;
+  z-index: 2;
+  background: orange;
+  padding: 10px;
+}
+
+.negative-z {
+  position: relative;
+  z-index: -1;
+  background: red;
+  bottom: 20px;
+  padding: 10px;
+}

@@ -1,0 +1,27 @@
+<!--
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_without_z-index
+  http://codepen.io/adamzerner/pen/LZYoJK?editors=1100
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>z-index | intro | stacking with no z-index</title>
+    <link rel="stylesheet" href="example.css">
+  </head>
+  <body>
+    <div class="block">block</div>
+    <div class="block">block</div>
+    <div class="block">block</div>
+    <span class="inline">inline</span><br />
+    <span class="inline">inline</span><br />
+    <span class="inline">inline</span><br />
+
+    <div class="relative relative-a">relative</div>
+    <div class="relative relative-b">relative</div>
+    <div class="absolute absolute-a">absolute</div>
+    <div class="absolute absolute-b">absolute</div>
+    <div class="fixed fixed-a">fixed</div>
+    <div class="fixed fixed-b">fixed</div>
+  </body>
+</html>

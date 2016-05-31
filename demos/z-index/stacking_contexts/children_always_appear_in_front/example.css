@@ -1,0 +1,24 @@
+.stacking-context {
+  position: relative;
+  z-index: 2;
+  background: orange;
+  padding: 20px;
+}
+
+.stacking-context div {
+  background: red;
+}
+
+.positioned {
+  position: relative;
+}
+
+.smaller-z {
+  position: relative;
+  z-index: 1;
+}
+
+.larger-z {
+  position: relative;
+  z-index: 3;
+}

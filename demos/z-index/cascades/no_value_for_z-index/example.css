@@ -1,0 +1,12 @@
+div {
+  position: absolute;
+}
+
+.first {
+  background: orange;
+}
+
+.second {
+  background: red;
+  top: 15px;
+}

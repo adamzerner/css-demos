@@ -1,0 +1,19 @@
+html {
+  border: 5px dotted darkGreen;
+  background: green;
+}
+
+.block, .inline {
+  background: yellow;
+}
+
+.positioned {
+  position: relative;
+  background: red;
+  right: 10px;
+}
+
+.float {
+  float: left;
+  background: orange;
+}

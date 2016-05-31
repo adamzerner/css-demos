@@ -1,0 +1,47 @@
+html {
+  border: 5px dotted navy;
+  background: purple;
+}
+
+.float {
+  background: green;
+}
+
+.inline, .block {
+  background: blue;
+}
+
+.float {
+  float: left;
+}
+
+.one {
+  position: absolute;
+  background: yellow;
+  left: 35px;
+  z-index: 1;
+}
+
+.b {
+  top: 31px
+}
+
+.c {
+  top: 49px;
+}
+
+.two, .three {
+  position: relative;
+}
+
+.two {
+  background: orange;
+  z-index: 2;
+}
+
+.three {
+  left: 23px;
+  bottom: 18px;
+  background: red;
+  z-index: 3;
+}

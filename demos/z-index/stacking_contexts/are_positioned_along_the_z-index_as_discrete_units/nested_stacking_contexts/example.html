@@ -1,0 +1,21 @@
+<!--
+  http://codepen.io/adamzerner/pen/ezmOvV?editors=1100
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>z-index | stacking contexts | are positioned along the z-index as discrete units | nested stacking contexts</title>
+    <link rel="stylesheet" href="example.css">
+  </head>
+  <body>
+    <div class="outer">
+      <div>outer</div>
+      <div class="two">z-index: 2; (outer) <br>test</div>
+      <div class="inner">
+        <div>inner</div>
+        <div class="one">z-index: 1; (inner)</div>
+      </div>
+    </div>
+  </body>
+</html>
