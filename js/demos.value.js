@@ -1023,7 +1023,7 @@ var demos = {
 
       'Are positioned along the z-index as discrete units': {
         0: {
-          title: 'Siblilng stacking contexts',
+          title: 'Sibling stacking contexts',
           htmlFile: 'z-index/stacking_contexts/are_positioned_along_the_z-index_as_discrete_units/sibling_stacking_contexts/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/VjYZvg?editors=1100',
           youtube: 'https://www.youtube.com/watch?v=iSy_ijGhXW4',
