@@ -7,6 +7,14 @@ html {
   padding: 20px;
 }
 
+.outer {
+  z-index: 0;
+}
+
+.inner {
+  z-index: 3;
+}
+
 .inner {
   background: orange;
 }
@@ -17,11 +25,13 @@ html {
 
 .one {
   background: red;
-  bottom: 120px;
+  bottom: 180px;
   left: 150px;
+  z-index: 1;
 }
 
 .two {
   background: yellow;
   top: 40px;
+  z-index: 2;
 }

@@ -965,12 +965,14 @@ var demos = {
         title: 'Intro',
         htmlFile: 'z-index/stacking_with_no_z-index/intro/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/LZYoJK?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=eg_ZMgVs_fI',
       },
 
       1: {
         title: 'With floats',
         htmlFile: 'z-index/stacking_with_no_z-index/with_floats/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/qNBGJG?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=GnZDJzyCilE',
       },
     },
 
@@ -978,18 +980,21 @@ var demos = {
       title: 'Positive values for <code>z-index</code>',
       htmlFile: 'z-index/positive_values_for_z-index/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/xOxNNN?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=VGsMod_oWk4',
     },
 
     1: {
       title: 'Negative values for <code>z-index</code>',
       htmlFile: 'z-index/negative_values_for_z-index/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/gMONam?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=Z1-XwfQWHFY',
     },
 
     2: {
       title: '<code>z-index</code> only matters when an element is positioned',
       htmlFile: 'z-index/z-index_only_matters_when_an_element_is_positioned/example.html',
       codePen: 'http://codepen.io/adamzerner/pen/zBYVNg?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=ezjA0m1sCo8',
     },
 
     Cascades: {
@@ -997,12 +1002,14 @@ var demos = {
         title: 'Same value for <code>z-index</code>',
         htmlFile: 'z-index/cascades/same_value_for_z-index/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/PzorbK?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=Y0l0UzuMhaM',
       },
 
       1: {
         title: 'No value for <code>z-index</code>',
         htmlFile: 'z-index/cascades/no_value_for_z-index/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/qNBzRd?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=vmqQmODnnds',
       },
     },
 
@@ -1011,6 +1018,7 @@ var demos = {
         title: 'Children always appear in front of element that created the stacking context',
         htmlFile: 'z-index/stacking_contexts/children_always_appear_in_front/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/PzwYoY?editors=1100',
+        youtube: 'https://www.youtube.com/watch?v=2MKspQpyVoQ',
       },
 
       'Are positioned along the z-index as discrete units': {
@@ -1018,12 +1026,14 @@ var demos = {
           title: 'Siblilng stacking contexts',
           htmlFile: 'z-index/stacking_contexts/are_positioned_along_the_z-index_as_discrete_units/sibling_stacking_contexts/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/VjYZvg?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=iSy_ijGhXW4',
         },
 
         1: {
           title: 'Nested stacking contexts',
           htmlFile: 'z-index/stacking_contexts/are_positioned_along_the_z-index_as_discrete_units/nested_stacking_contexts/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/ezmOvV?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=BrUsyGYpvRM',
         },
       },
     },
