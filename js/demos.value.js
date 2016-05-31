@@ -229,14 +229,14 @@ var demos = {
 
       '<code>inline</code>': {
         0: {
-          title: 'Can\'t set width',
+          title: 'Can\'t set <code>width</code>',
           htmlFile: 'positioning/static/inline/cant_set_width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/WxeBjE?editors=1100',
           youtube: 'https://www.youtube.com/watch?v=nvA8ym41q-s',
         },
 
         1: {
-          title: 'Can\'t set height',
+          title: 'Can\'t set <code>height</code>',
           htmlFile: 'positioning/static/inline/cant_set_height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/bebyWW?editors=1100',
           youtube: 'https://www.youtube.com/watch?v=xrVqmbomdjI',
@@ -304,6 +304,22 @@ var demos = {
               youtube: 'https://www.youtube.com/watch?v=AQoTKgr8bM0',
             },
           },
+        },
+      },
+
+      '<code>inline-block</code>': {
+        0: {
+          title: 'Can set <code>width</code>',
+          htmlFile: 'positioning/static/inline-block/can_set_width/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/xObgVv?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=dq-WdAlUlMY',
+        },
+
+        1: {
+          title: 'Can set <code>height</code>',
+          htmlFile: 'positioning/static/inline-block/can_set_height/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/MeYJeP?editors=1100',
+          youtube: 'https://www.youtube.com/watch?v=xmRLgpzTB44',
         },
       },
     },
