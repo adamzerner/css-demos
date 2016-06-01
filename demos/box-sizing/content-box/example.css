@@ -1,0 +1,6 @@
+div {
+  box-sizing: content-box;
+  border: 50px solid black;
+  background: orange;
+  width: 300px;
+}

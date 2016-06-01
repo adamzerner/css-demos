@@ -1054,6 +1054,22 @@ var demos = {
       },
     },
   },
+
+  '<code>box-sizing</code>': {
+    0: {
+      title: '<code>content-box</code>',
+      htmlFile: 'box-sizing/content-box/example.html',
+      codePen: 'http://codepen.io/adamzerner/pen/yJygbQ?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=BdOJASw793U',
+    },
+
+    1: {
+      title: '<code>border-box</code>',
+      htmlFile: 'box-sizing/border-box/example.html',
+      codePen: 'http://codepen.io/adamzerner/pen/xObgdx?editors=1100',
+      youtube: 'https://www.youtube.com/watch?v=lhI_ToQSR-U',
+    },
+  },
 };
 
 angular
