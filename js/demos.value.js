@@ -1078,14 +1078,14 @@ var demos = {
           title: '<code>width</code> is based on the content area of the nearest block level ancestor',
           htmlFile: 'width_height_percentages/content-box/static/width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/jrEyYv?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=WRcugSa-cTY',
         },
 
         1: {
           title: '<code>height</code> is based on the content area of the nearest block level ancestor',
           htmlFile: 'width_height_percentages/content-box/static/height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/wWBgym?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=9V2ikLsOYj0',
         },
       },
 
@@ -1094,14 +1094,14 @@ var demos = {
           title: '<code>width</code> is based on the content area of the nearest block level ancestor',
           htmlFile: 'width_height_percentages/content-box/relative/width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/wWBeEj?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=Ik-cR92_BtM',
         },
 
         1: {
           title: '<code>height</code> is based on the content area of the nearest block level ancestor',
           htmlFile: 'width_height_percentages/content-box/relative/height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/OXPgBQ?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=OQMmG09jRVg',
         },
       },
 
@@ -1110,14 +1110,14 @@ var demos = {
           title: '<code>width</code> is based on the padding area of nearest positioned ancestor',
           htmlFile: 'width_height_percentages/content-box/absolute/width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/QEwgXY?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=48Q6Xz_hMNA',
         },
 
         1: {
           title: '<code>height</code> is based on the padding area of nearest positioned ancestor',
           htmlFile: 'width_height_percentages/content-box/absolute/height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/zBxdYr?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=VTnALAsklR0',
         },
       },
     },
@@ -1128,14 +1128,14 @@ var demos = {
           title: '<code>width</code> is based on the content area of the nearest block level ancestor',
           htmlFile: 'width_height_percentages/border-box/static/width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/ezmRQq?editors=1100content',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=cYDD4LIwoqU',
         },
 
         1: {
           title: '<code>height</code> is based on the content area of the nearest block level ancestor',
           htmlFile: 'width_height_percentages/border-box/static/height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/dXPRrv?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=HLQUImxtvmU',
         },
       },
 
@@ -1144,14 +1144,14 @@ var demos = {
           title: '<code>width</code> is based on the content area of the nearest block level ancestor',
           htmlFile: 'width_height_percentages/border-box/relative/width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/qNEjwa?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=JNiX8ANiSgY',
         },
 
         1: {
           title: '<code>height</code> is based on the content area of the nearest block level ancestor',
           htmlFile: 'width_height_percentages/border-box/relative/height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/beNRJx?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=IbsQ4J1lgGk',
         },
       },
 
@@ -1160,14 +1160,14 @@ var demos = {
           title: '<code>width</code> is based on the padding area of nearest positioned ancestor',
           htmlFile: 'width_height_percentages/border-box/absolute/width/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/pbvwMm?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=XuhTtqvfZXM',
         },
 
         1: {
           title: '<code>height</code> is based on the padding area of nearest positioned ancestor',
           htmlFile: 'width_height_percentages/border-box/absolute/height/example.html',
           codePen: 'http://codepen.io/adamzerner/pen/XKJaJm?editors=1100',
-          youtube: '',
+          youtube: 'https://www.youtube.com/watch?v=shHaFyXpigQ',
         },
       },
     },
@@ -1177,14 +1177,14 @@ var demos = {
         title: '<code>width</code> is based on the width of the viewport',
         htmlFile: 'width_height_percentages/fixed/width/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/WxbEwm?editors=1100',
-        youtube: '',
+        youtube: 'https://www.youtube.com/watch?v=Zr5YCR8Rmqs',
       },
 
       1: {
         title: '<code>height</code> is based on the height of the viewport',
         htmlFile: 'width_height_percentages/fixed/height/example.html',
         codePen: 'http://codepen.io/adamzerner/pen/wWBgym?editors=1100',
-        youtube: '',
+        youtube: 'https://www.youtube.com/watch?v=DFGTaUljRO8',
       },
     },
   },
