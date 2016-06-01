@@ -1,0 +1,15 @@
+.container {
+  box-sizing: border-box;
+  border: 25px solid black;
+  padding: 25px;
+  height: 150px;
+  position: relative;
+}
+
+.inner {
+  border: 1px solid red;
+  height: 50%;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}

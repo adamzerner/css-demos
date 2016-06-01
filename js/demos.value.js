@@ -1070,6 +1070,124 @@ var demos = {
       youtube: 'https://www.youtube.com/watch?v=lhI_ToQSR-U',
     },
   },
+
+  'Setting <code>width</code> or <code>height</code> to be a percentage': {
+    '<code>content-box</code> is set for containing block': {
+      '<code>static</code>': {
+        0: {
+          title: '<code>width</code> is based on the content area of the nearest block level ancestor',
+          htmlFile: 'width_height_percentages/content-box/static/width/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/jrEyYv?editors=1100',
+          youtube: '',
+        },
+
+        1: {
+          title: '<code>height</code> is based on the content area of the nearest block level ancestor',
+          htmlFile: 'width_height_percentages/content-box/static/height/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/wWBgym?editors=1100',
+          youtube: '',
+        },
+      },
+
+      '<code>relative</code>': {
+        0: {
+          title: '<code>width</code> is based on the content area of the nearest block level ancestor',
+          htmlFile: 'width_height_percentages/content-box/relative/width/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/wWBeEj?editors=1100',
+          youtube: '',
+        },
+
+        1: {
+          title: '<code>height</code> is based on the content area of the nearest block level ancestor',
+          htmlFile: 'width_height_percentages/content-box/relative/height/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/OXPgBQ?editors=1100',
+          youtube: '',
+        },
+      },
+
+      '<code>absolute</code>': {
+        0: {
+          title: '<code>width</code> is based on the padding area of nearest positioned ancestor',
+          htmlFile: 'width_height_percentages/content-box/absolute/width/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/QEwgXY?editors=1100',
+          youtube: '',
+        },
+
+        1: {
+          title: '<code>height</code> is based on the padding area of nearest positioned ancestor',
+          htmlFile: 'width_height_percentages/content-box/absolute/height/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/zBxdYr?editors=1100',
+          youtube: '',
+        },
+      },
+    },
+
+    '<code>border-box</code> is set for contianing block': {
+      '<code>static</code>': {
+        0: {
+          title: '<code>width</code> is based on the content area of the nearest block level ancestor',
+          htmlFile: 'width_height_percentages/border-box/static/width/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/ezmRQq?editors=1100content',
+          youtube: '',
+        },
+
+        1: {
+          title: '<code>height</code> is based on the content area of the nearest block level ancestor',
+          htmlFile: 'width_height_percentages/border-box/static/height/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/dXPRrv?editors=1100',
+          youtube: '',
+        },
+      },
+
+      '<code>relative</code>': {
+        0: {
+          title: '<code>width</code> is based on the content area of the nearest block level ancestor',
+          htmlFile: 'width_height_percentages/border-box/relative/width/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/qNEjwa?editors=1100',
+          youtube: '',
+        },
+
+        1: {
+          title: '<code>height</code> is based on the content area of the nearest block level ancestor',
+          htmlFile: 'width_height_percentages/border-box/relative/height/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/beNRJx?editors=1100',
+          youtube: '',
+        },
+      },
+
+      '<code>absolute</code>': {
+        0: {
+          title: '<code>width</code> is based on the padding area of nearest positioned ancestor',
+          htmlFile: 'width_height_percentages/border-box/absolute/width/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/pbvwMm?editors=1100',
+          youtube: '',
+        },
+
+        1: {
+          title: '<code>height</code> is based on the padding area of nearest positioned ancestor',
+          htmlFile: 'width_height_percentages/border-box/absolute/height/example.html',
+          codePen: 'http://codepen.io/adamzerner/pen/XKJaJm?editors=1100',
+          youtube: '',
+        },
+      },
+    },
+
+    '<code>fixed</code>': {
+      0: {
+        title: '<code>width</code> is based on the width of the viewport',
+        htmlFile: 'width_height_percentages/fixed/width/example.html',
+        codePen: 'http://codepen.io/adamzerner/pen/WxbEwm?editors=1100',
+        youtube: '',
+      },
+
+      1: {
+        title: '<code>height</code> is based on the height of the viewport',
+        htmlFile: 'width_height_percentages/fixed/height/example.html',
+        codePen: 'http://codepen.io/adamzerner/pen/wWBgym?editors=1100',
+        youtube: '',
+      },
+    },
+  },
 };
 
 angular

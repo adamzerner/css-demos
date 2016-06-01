@@ -1,0 +1,13 @@
+.container {
+  border: 25px solid black;
+  padding: 25px;
+  width: 100px;
+}
+
+.inner {
+  border: 1px solid red;
+  width: 50%;
+  position: fixed;
+  top: 45px;
+  left: 1px;
+}

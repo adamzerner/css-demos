@@ -1,0 +1,13 @@
+.container {
+  box-sizing: content-box;
+  border: 25px solid black;
+  padding: 25px;
+  height: 50px;
+}
+
+.inner {
+  border: 1px solid red;
+  height: 50%;
+  position: relative;
+  left: 1px;
+}
